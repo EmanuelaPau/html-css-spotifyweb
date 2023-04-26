@@ -1,37 +1,4 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Dimensioni schermo 576-768 */
+@media screen and (max-width: 768px) {
+    
 }
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-}
-
-/* Texts */
-
-h1 {}
-
-h2 {}
-
-h3 {}
-
-/* HEADER */
-
-/* MAIN */
-
-/* FOOTER */
-
-/* UTILITIES */
-
-.flex {
-    display: flex;
-}
-
-.relative {
-    position: relative;
-}
-
-/* Colors */
