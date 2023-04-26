@@ -65,7 +65,17 @@ ul.nav-menu-up  {
 }
 
 ul.nav-menu-up li{
+    position: relative;
     align-items: center;
+}
+
+li.nav-menu-up-line::before {
+    position: absolute;
+    left: calc(3px - 1.2rem);
+    content: "";
+    width: 100%;
+    height: 90%;
+    border-left: 3px solid #99e22d;
 }
 
 img.nav-menu-up-icon {

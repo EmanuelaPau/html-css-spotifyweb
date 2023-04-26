@@ -38,12 +38,17 @@
     section.app-main-box {
         width: calc(100% - 100px);
     }
+    
 
     ul.nav-menu-up li {
         align-items: center;
     }
 
     ul.nav-menu-up li a {
+        display: none;
+    }
+
+    li.nav-menu-up-line::before {
         display: none;
     }
  
