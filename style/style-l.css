@@ -220,14 +220,16 @@ img.album-cover-round {
 
 footer {
     background-color: #282828;
-    height: 90px;
+    height: 110px;
 }
 
 div.footer-container {
     padding: .8rem;
     align-items: center;
+    justify-content: space-between;
 }
 
+/* Footer left */
 div.footer-left {
     align-items: center;
 }
@@ -246,6 +248,50 @@ div.footer-left i {
     color: #7b7d82;
 }
 
+/* Footer center */
+div.footer-center {
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+}
+
+div.player-controls{
+    gap: 2rem;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+div.player-controls i{
+    justify-content: center;
+}
+
+div.player-controls i.icon-big{
+    font-size: 2rem;
+}
+
+div.player-line-container {
+    padding-top: 1rem;
+    align-items: center;
+}
+
+div.player-line {
+    background-color: #7b7d82;
+    height: 4px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+div.player-line-percentage {
+    height: 100%;
+    border-radius: 50%;
+    width: 20%;
+    background-color: #c1c1c1;
+}
+
+div.player-line-container h5{
+    margin: 0 1rem;
+}
 
 /* UTILITIES */
 
