@@ -1,4 +1,6 @@
 /* Dimensioni schermo 0–576px */
 @media screen and (max-width: 576px) {
-    
+    body{
+        background-color: pink;
+    }  
 }
