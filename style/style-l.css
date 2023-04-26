@@ -20,11 +20,42 @@ h2 {}
 
 h3 {}
 
-/* HEADER */
-
 /* MAIN */
 
+main {
+    background-color: bisque;
+    width: 100vw;
+    height: calc(100vh - 90px); 
+}
+
+/* NAV */
+nav.side-menu-bar {
+    width: 300px;
+    height: 100%; 
+    background-color: #000000;
+}
+
+/* APP main box */
+
+section.app-main-box {
+    width: calc(100% - 300px);
+    background-color: #141922;
+    /* overflow: scroll; */
+}
+
+div.upgrade {
+    background-color: #080b12;
+    height: 90px;
+    width:100%;
+}
+
+
 /* FOOTER */
+
+footer {
+    background-color: #282828;
+    height: 90px;
+}
 
 /* UTILITIES */
 
