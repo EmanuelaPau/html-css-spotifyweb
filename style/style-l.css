@@ -187,7 +187,7 @@ nav.nav-section-choice ul li{
 
 /* Albums section */
 
-div.album-collection-container h3{
+.album-row-title {
     padding: 1.5rem 0;
 }
 
@@ -203,6 +203,11 @@ div.album-column {
 
 div.album-column img{
     width: 100%;
+}
+
+div.album-row-left {
+    justify-content: flex-start;
+    gap: 1rem;
 }
 
 /* FOOTER */
