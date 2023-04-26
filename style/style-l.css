@@ -64,6 +64,10 @@ ul.nav-menu-up  {
     flex-direction: column;
 }
 
+ul.nav-menu-up li{
+    align-items: center;
+}
+
 img.nav-menu-up-icon {
     width: 30px;
     margin: .5rem .5rem .5rem 0;
@@ -150,5 +154,9 @@ footer {
 
 .margin-bottom {
     margin-bottom: 1rem;
+}
+
+.padding-left-m {
+    padding-left:1.3rem
 }
 /* Colors */
