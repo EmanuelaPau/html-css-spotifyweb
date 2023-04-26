@@ -136,6 +136,39 @@ div.upgrade {
     align-items: center;
 }
 
+div.app {
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+nav.nav-section-choice ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    color: #7b7d82;
+    font-weight: 600;
+}
+
+li.nav-app-line {
+    display: inline-block;
+    position: relative;
+}
+
+li.nav-app-line::before {
+    position: absolute;
+    left: 30%;
+
+    content: "";
+    width: 40%;
+    height: 100%;
+    border-bottom: 2px solid #99e22d;
+}
+
+nav.nav-section-choice ul li{
+    margin: 1rem 1rem;
+    font-size: .8rem;
+}
 
 /* FOOTER */
 
