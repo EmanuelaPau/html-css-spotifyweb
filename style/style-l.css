@@ -22,7 +22,7 @@ footer {
     position: relative;
     background-color: #282828;
     height: 110px;
-    z-index: 1;
+    z-index: 3;
 }
 
 ul {
@@ -37,22 +37,29 @@ a {
 
 /* Texts */
 
-h1 {}
+h1 {
+    font-size: 1rem;
+    font-weight: 700;
+}
 
-h2 {}
+h2 {
+    font-size: 1.8rem;
+}
 
 h3 {
-    font-size: 1.8rem;
+    
 }
 
 /* MAIN */
 
 /* NAV */
 nav.side-menu-bar {
-    width: 300px;
+    width: 270px;
     height: 100%; 
     background-color: #000000;
-    padding-top: 1rem;
+    color: #7b7d82;
+    font-weight: 600;
+    padding-top: 1.5rem;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -75,25 +82,47 @@ ul.nav-menu-up  {
 
 ul.nav-menu-up li{
     position: relative;
+    z-index: 2;
+
     align-items: center;
+    /* background-color: aqua; */
 }
 
 li.nav-menu-up-line::before {
     position: absolute;
-    left: calc(3px - 1.2rem);
+    left: calc(3px - 1.5rem);
     content: "";
     width: 100%;
     height: 90%;
     border-left: 3px solid #99e22d;
+    /* background-color: red; */
+    z-index: -1;
+}
+
+li.nav-menu-up-line a{
+    color: white;
 }
 
 img.nav-menu-up-icon {
     width: 30px;
-    margin: .5rem .5rem .5rem 0;
+    margin: .25rem .5rem .25rem 0;
+    opacity: 80%;
 }
 
-img.add-playlist {
-    width: 50px; 
+div.add-playlist {
+    align-items: center;
+    justify-content: center;
+    width: 40px; 
+    height: 40px;
+    background-color: white;
+    opacity: 80%;
+    color: #141922;
+    margin-right: .5rem;
+}
+
+div.add-playlist h3{
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 div.crea-playlist {
@@ -101,11 +130,13 @@ div.crea-playlist {
 }
 
 div.playlist ul li {
-    margin: 1rem 0;
+    margin: 1.3rem 0;
 }
 
-div.playlist h1 {
+div.playlist h1.playlist-title {
     text-transform: uppercase;
+    color: white;
+    margin-bottom: .8rem;
 }
 
 /* LOWER NAV MEN */
@@ -113,13 +144,16 @@ div.playlist h1 {
 div.side-menu-bottom div img {
     width: 18px;
     margin-right: .5rem;
-    
+    opacity: 80%;    
+}
+
+div.side-menu-bottom div h2 {
+    color: white;
 }
 
 div.installa-app {
     align-items: center;
     width: 90%;
-
 }
 
 div.line {
@@ -129,12 +163,18 @@ div.line {
     margin: 1rem 0;
 }
 
+div.profile {
+    margin-bottom: .5rem;
+    align-items: center;
+    color: white;
+}
+
 div.profile-pic-container {
     background-color: #6f6f6f;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin-right: .5rem;
+    margin-right: 1rem;
     background-image: url(../img/profile.svg);
     background-position: center;
 }
@@ -254,7 +294,7 @@ div.footer-left i {
 div.footer-center {
     flex-direction: column;
     justify-content: center;
-    width: 35%;
+    width: 500px;
 }
 
 div.player-controls{
@@ -319,7 +359,7 @@ div.player-line-container-right {
 }
 
 .margin-bottom {
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 button {
@@ -334,6 +374,6 @@ button {
 }
 
 .padding-left-m {
-    padding-left:1.3rem
+    padding-left:1.5rem
 }
 /* Colors */
