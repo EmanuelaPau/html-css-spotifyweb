@@ -26,6 +26,11 @@
         margin-bottom: 1rem;
     }
 
+    img.nav-menu-up-icon {
+        width: 30px;
+        margin: .5rem 0;
+    }
+
     nav.side-menu-bar {
     width: 60px;
     }
@@ -41,7 +46,7 @@
     ul.nav-menu-up li a {
         display: none;
     }
-
+ 
     div.playlist {
         display: none;
     }
@@ -80,5 +85,11 @@
     /* MAIN APP*/
     section.app-main-box {
         width: calc(100% - 60px)
+    }
+
+    /* UTILITIES */
+
+    .padding-left-m {
+        padding-left: 0;
     }
 }

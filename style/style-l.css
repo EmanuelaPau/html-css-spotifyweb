@@ -132,6 +132,8 @@ div.upgrade {
     background-color: #080b12;
     height: 90px;
     width:100%;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 
@@ -154,6 +156,17 @@ footer {
 
 .margin-bottom {
     margin-bottom: 1rem;
+}
+
+button {
+    background-color: #080b12;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: .8rem 2.3rem;
+    border-radius: 1.7rem;
+    color: white;
+    margin: .5rem;
 }
 
 .padding-left-m {
