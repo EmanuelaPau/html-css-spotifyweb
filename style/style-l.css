@@ -137,7 +137,7 @@ div.profile-pic-container {
 section.app-main-box {
     width: calc(100% - 300px);
     background-color: #141922;
-    /* overflow: scroll; */
+    overflow-y: scroll;
 }
 
 /* Upgrade */
@@ -208,6 +208,10 @@ div.album-column img{
 div.album-row-left {
     justify-content: flex-start;
     gap: 1rem;
+}
+
+img.album-cover-round {
+    border-radius: 50%;
 }
 
 /* FOOTER */
