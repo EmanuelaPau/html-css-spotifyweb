@@ -23,8 +23,7 @@ h3 {}
 /* MAIN */
 
 main {
-    background-color: bisque;
-    width: 100vw;
+    width: 100%;
     height: calc(100vh - 90px); 
 }
 

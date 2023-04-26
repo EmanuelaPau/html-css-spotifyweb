@@ -3,4 +3,13 @@
     body{
         /* background-color: pink; */
     }  
+
+    /* NAV */
+    nav.side-menu-bar {
+    width: 100px;
+    }
+
+    section.app-main-box {
+        width: calc(100% - 100px);
+    }   
 }
