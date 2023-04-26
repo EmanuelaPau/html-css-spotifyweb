@@ -1,6 +1,15 @@
 /* Dimensioni schermo 768-992px */
 @media screen and (max-width: 992px) {
-    body{
-        /* background-color: red; */
-    }   
+    /* Album section */
+    div.album-column {
+        width: calc((100% / 4) - .5rem);
+    }
+
+    div.album-column.fifth-column {
+        display: none;
+     }
+
+    div.album-column.sixth-column {
+       display: none;
+    }
 }
