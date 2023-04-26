@@ -182,7 +182,7 @@ div.profile-pic-container {
 /* APP main box */
 
 section.app-main-box {
-    width: calc(100% - 300px);
+    width: calc(100% - 270px);
     background-color: #141922;
     overflow-y: scroll;
 }
