@@ -194,6 +194,7 @@ div.upgrade {
     width:100%;
     justify-content: flex-end;
     align-items: center;
+    font-weight: 700;
 }
 
 div.app {
@@ -228,14 +229,14 @@ li.nav-app-line::before {
 }
 
 nav.nav-section-choice ul li{
-    margin: 1rem 1rem;
+    margin: 1rem .8rem;
     font-size: .8rem;
 }
 
 /* Albums section */
 
 .album-row-title {
-    padding: 1.5rem 0;
+    padding: 2rem 0;
 }
 
 div.album-row {
