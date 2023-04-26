@@ -13,6 +13,18 @@ body{
     color: white;
 }
 
+main {
+    width: 100%;
+    height: calc(100vh - 90px); 
+}
+
+footer {
+    position: relative;
+    background-color: #282828;
+    height: 110px;
+    z-index: 1;
+}
+
 ul {
     list-style-type: none;
 }
@@ -34,11 +46,6 @@ h3 {
 }
 
 /* MAIN */
-
-main {
-    width: 100%;
-    height: calc(100vh - 90px); 
-}
 
 /* NAV */
 nav.side-menu-bar {
@@ -217,11 +224,6 @@ img.album-cover-round {
 }
 
 /* FOOTER */
-
-footer {
-    background-color: #282828;
-    height: 110px;
-}
 
 div.footer-container {
     padding: .8rem;
