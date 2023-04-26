@@ -6,9 +6,10 @@
 }
 
 body{
-    width: 100vw;
+    /* width: 100vw;
     height: 100vh;
-    background-color: aqua;
+    background-color: aqua; */
+    font-family: 'Montserrat', sans-serif;  
 }
 
 /* Texts */

@@ -1,6 +1,6 @@
 /* Dimensioni schermo 576-768 */
 @media screen and (max-width: 768px) {
     body{
-        background-color: green;
+        /* background-color: green; */
     }   
 }
