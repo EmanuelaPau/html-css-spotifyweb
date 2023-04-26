@@ -4,12 +4,81 @@
         /* background-color: pink; */
     }  
 
+    /* MAIN */
+
     /* NAV */
+
     nav.side-menu-bar {
-    width: 100px;
+        align-items: center;
+    }
+
+    #logo-desktop img {
+        display: none;
+    }
+
+    #logo-mobile img {
+        width: 40px;
+        margin-bottom: 1rem;
+    }
+    
+    #logo-mobile {
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+
+    nav.side-menu-bar {
+    width: 60px;
     }
 
     section.app-main-box {
         width: calc(100% - 100px);
-    }   
+    }
+
+    ul.nav-menu-up li {
+        align-items: center;
+    }
+
+    ul.nav-menu-up li a {
+        display: none;
+    }
+
+    div.playlist {
+        display: none;
+    }
+
+    div.side-menu-bottom div p, div.side-menu-bottom div h2 {
+        display: none;
+    } 
+
+    div.line {
+        display: none;
+    }
+
+    div.side-menu-bottom {
+        width: 100%;
+    }
+    
+    div.side-menu-bottom div img {
+        margin-right: 0;
+    }
+
+    div.installa-app {
+        width: 100%;
+        justify-content: center;
+    }
+
+    div.profile {
+        width: 100%;
+        justify-content: center;
+    }
+
+    div.profile-pic-container {
+        margin-right: 0;
+    }
+
+
+    /* MAIN APP*/
+    section.app-main-box {
+        width: calc(100% - 60px)
+    }
 }
