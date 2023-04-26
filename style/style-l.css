@@ -223,6 +223,30 @@ footer {
     height: 90px;
 }
 
+div.footer-container {
+    padding: .8rem;
+    align-items: center;
+}
+
+div.footer-left {
+    align-items: center;
+}
+
+div.footer-left img {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+div.song-playing-info {
+    margin-right: 2.5rem;
+}
+
+div.footer-left i {
+    margin-right: 1rem;
+    color: #7b7d82;
+}
+
+
 /* UTILITIES */
 
 .flex {
