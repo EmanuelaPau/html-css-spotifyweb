@@ -10,6 +10,17 @@ body{
     height: 100vh;
     background-color: aqua; */
     font-family: 'Montserrat', sans-serif;  
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #6f6f6f;
+    font-size: .9rem;
 }
 
 /* Texts */
@@ -32,6 +43,76 @@ nav.side-menu-bar {
     width: 300px;
     height: 100%; 
     background-color: #000000;
+    padding-top: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* UPPER NAV MENU */
+
+#logo-desktop img {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+#logo-mobile {
+    display: none;
+    margin-bottom: 1rem;
+
+}
+
+ul.nav-menu-up  {
+    flex-direction: column;
+}
+
+ul.nav-menu-up li {
+    align-items: center;
+}
+
+img.nav-menu-up-icon {
+    width: 30px;
+    margin: .5rem .5rem .5rem 0;
+}
+
+img.add-playlist {
+    width: 50px; 
+}
+
+div.crea-playlist {
+    align-items: center;
+}
+
+div.playlist ul li {
+    margin: 1rem 0;
+}
+
+div.playlist h1 {
+    text-transform: uppercase;
+}
+
+/* LOWER NAV MEN */
+
+div.side-menu-bottom div img {
+    width: 18px;
+    margin-right: .5rem;
+    
+}
+
+div.installa-app {
+    align-items: center;
+    border-bottom: 1px solid #6f6f6f;
+    width: 90%;
+
+}
+
+div.profile-pic-container {
+    background-color: #6f6f6f;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: .5rem;
+    background-image: url(../img/profile.svg);
+    background-position: center;
 }
 
 /* APP main box */
@@ -66,4 +147,7 @@ footer {
     position: relative;
 }
 
+.margin-bottom {
+    margin-bottom: 1rem;
+}
 /* Colors */
