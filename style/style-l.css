@@ -293,6 +293,19 @@ div.player-line-container h5{
     margin: 0 1rem;
 }
 
+div.footer-right {
+    align-items: center;
+}
+
+div.footer-right  div i {
+   margin: 0 .5rem;
+}
+
+div.player-line-container-right {
+    width: 120px;
+    align-items: center;
+}
+
 /* UTILITIES */
 
 .flex {
