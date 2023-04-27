@@ -12,4 +12,9 @@
     div.album-column.sixth-column {
        display: none;
     }
+
+    /* footer */
+    div.player-line-container {
+        width: 70%;
+      }
 }

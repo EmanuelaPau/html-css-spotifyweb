@@ -31,36 +31,36 @@ ul {
 }
 
 p {
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 a {
     text-decoration: none;
     color: #6f6f6f;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 /* Texts */
 
 h1 {
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 h4 {
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 h5 {
-    font-size: .7rem;
+    font-size: .6rem;
 }
 
 /* MAIN */
@@ -306,15 +306,13 @@ div.footer-container {
 /* Footer left */
 div.footer-left {
     align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 25%;
 }
 
 div.footer-left img {
     width: 50px;
-    margin-right: 1rem;
-}
-
-div.song-playing-info {
-    margin-right: 2.5rem;
 }
 
 div.song-playing-info h5{
@@ -322,20 +320,27 @@ div.song-playing-info h5{
 }
 
 div.footer-left i {
-    font-size: 1.2rem;
-    margin-right: 1rem;
+    margin-right: .5rem;
+    font-size: .9rem;
     color: #7b7d82;
+}
+
+div.like-folder-icons {
+    flex-wrap: wrap;
 }
 
 /* Footer center */
 div.footer-center {
+    width: 50%;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 div.player-controls{
-    gap: 2rem;
-    font-size: 1.2rem;
+    min-width: 250px;
+    gap: 1.5rem;
+    font-size: 1.1rem;
     align-items: center;
     justify-content: center;
 }
@@ -345,12 +350,13 @@ div.player-controls i{
 }
 
 div.player-controls i.icon-big{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 div.player-line-container {
     padding-top: 1rem;
     align-items: center;
+    width: 60%;
 }
 
 div.player-line {
@@ -373,16 +379,20 @@ div.player-line-container h5{
 
 div.footer-right {
     align-items: center;
+    justify-content: flex-end;
+    width: 25%;
 }
 
 div.footer-right  div i {
    margin: 0 .5rem;
+   font-size: .8rem;
 }
 
 div.player-line-container-right {
     width: 120px;
     align-items: center;
 }
+
 
 /* UTILITIES */
 

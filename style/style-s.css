@@ -23,4 +23,14 @@
     div.album-column.sixth-column {
        display: none;
     }
+
+    /* Footer */
+
+    div.player-line-container {
+        width: 90%;
+      }
+
+      div.like-folder-icons {
+        flex-direction: column;
+    }
 }

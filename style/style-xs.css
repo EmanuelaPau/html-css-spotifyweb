@@ -5,7 +5,7 @@
     }  
 
     /* MAIN */
-    
+
     /* NAV */
 
     nav.side-menu-bar {
@@ -84,13 +84,27 @@
 
     div.profile-pic-container {
         margin-right: 0;
+        margin-top: 1rem;
     }
 
+    div.profile h1{
+        display: none;
+    }
 
     /* MAIN APP*/
     section.app-main-box {
         width: calc(100% - 60px)
     }
+
+    /* FOOTER */
+
+    div.player-controls{
+        gap: 1rem;
+    }
+
+    div.player-line-container h5 {
+        margin: 0 .5rem;
+      }
 
     /* UTILITIES */
 
