@@ -363,6 +363,10 @@ div.song-playing-info a{
     font-weight: 600;
 }
 
+div.song-playing-info a:hover{
+    text-decoration: underline;
+}
+
 div.footer-left i {
     margin-right: .5rem;
     font-size: .9rem;
