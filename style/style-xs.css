@@ -104,7 +104,11 @@
 
     div.player-line-container h5 {
         margin: 0 .5rem;
-      }
+    }
+
+    div.footer-left img {
+        width: 40px;
+    } 
 
     /* UTILITIES */
 
