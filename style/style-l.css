@@ -445,6 +445,7 @@ div.player-line-circle{
     height: 14px;
     background-color: #99e22d;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .display-hover {
