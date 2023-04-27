@@ -145,6 +145,15 @@ div.crea-playlist {
     align-items: center;
 }
 
+div.crea-playlist:hover {
+    cursor: pointer;
+    color: white;
+}
+
+div.crea-playlist:hover div.add-playlist{
+    opacity: 100%;
+}
+
 div.playlist ul li {
     margin: 1.3rem 0;
 }
@@ -360,6 +369,11 @@ div.footer-left i {
     color: #7b7d82;
 }
 
+div.footer-left i:hover {
+    cursor: pointer;
+    color: white;
+}
+
 div.like-folder-icons {
     flex-wrap: wrap;
 }
@@ -384,8 +398,17 @@ div.player-controls i{
     justify-content: center;
 }
 
+div.player-controls i:hover{
+    cursor: pointer;
+}
+
 div.player-controls i.icon-big{
     font-size: 1.6rem;
+}
+
+div.player-controls i.icon-big:hover{
+    font-size: 1.8rem;
+    cursor: pointer;
 }
 
 div.player-line-container {
@@ -395,6 +418,7 @@ div.player-line-container {
 }
 
 div.player-line {
+    position: relative;
     background-color: #7b7d82;
     height: 4px;
     border-radius: 2px;
@@ -403,10 +427,35 @@ div.player-line {
 
 div.player-line-percentage {
     height: 100%;
-    border-radius: 50%;
+    border-radius: 2px;
     width: 20%;
     background-color: #c1c1c1;
 }
+
+div.player-line-container:hover div.player-line-percentage{
+    background-color: white;
+}
+
+div.player-line-circle{
+    position: absolute;
+    left: calc(20% - 7px);
+    bottom: calc(50% - 7px);
+
+    width: 14px;
+    height: 14px;
+    background-color: #99e22d;
+    border-radius: 50%;
+}
+
+.display-hover {
+    display: none;
+}
+
+
+div.player-line-container:hover .display-hover{
+    display: inline-block;
+}
+
 
 div.player-line-container h5{
     margin: 0 1rem;
@@ -423,9 +472,21 @@ div.footer-right  div i {
    font-size: .8rem;
 }
 
+div.footer-right  div i:hover {
+    cursor: pointer;
+ }
+
 div.player-line-container-right {
     width: 120px;
     align-items: center;
+}
+
+div.player-line-container-right:hover div.player-line-percentage{
+    background-color: white;
+}
+
+div.player-line-container-right:hover .display-hover{
+    display: inline-block;
 }
 
 
