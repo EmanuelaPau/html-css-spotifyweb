@@ -399,6 +399,7 @@ div.footer-center {
 }
 
 div.player-controls{
+    height: 2rem;
     min-width: 250px;
     gap: 1.5rem;
     font-size: 1.1rem;
@@ -408,18 +409,24 @@ div.player-controls{
 
 div.player-controls i{
     justify-content: center;
+    transform-origin: center;
 }
 
 div.player-controls i:hover{
     cursor: pointer;
 }
 
-div.player-controls i.icon-big{
+div.icon-big-container {
+    width:1.8rem;
+    heigth:1.8rem;
+}
+
+i.icon-big{
     font-size: 1.6rem;
 }
 
-div.player-controls i.icon-big:hover{
-    font-size: 1.8rem;
+i.icon-big:hover{
+    transform: scale(1.25);
     cursor: pointer;
 }
 
@@ -526,11 +533,11 @@ button {
     border-radius: 1.7rem;
     color: white;
     margin: .5rem 1.5rem;
+    transform-origin: center;
 }
 
 button:hover {
-    font-size: 1.1rem;
-    transform-origin: center;
+    transform: scale(1.1);
     cursor: pointer;
 }
 
