@@ -207,24 +207,32 @@ div.profile-pic-container {
 /* APP main box */
 
 section.app-main-box {
+    position: relative;
+    flex-direction: column;
     width: calc(100% - 270px);
     background-color: #141922;
-    overflow-y: scroll;
 }
 
 /* Upgrade */
 div.upgrade {
-    background-color: #080b12;
-    height: 90px;
-    width:100%;
-    justify-content: flex-end;
+    position: fixed;
+    z-index: 2;
+
     align-items: center;
+    justify-content:flex-end;
+
+    background-color: rgba(0, 0, 0, 0.484);
+    height: 90px;
+    width: calc(100% - 270px);
     font-weight: 700;
 }
 
 div.app {
-    padding: 2rem;
+    height: 100%;
+    padding: 90px 2rem 2rem;
+    
     margin: 0 auto;
+    overflow-y: scroll;
 }
 
 /* Selection choice nav */
@@ -517,7 +525,7 @@ button {
     padding: .8rem 2.3rem;
     border-radius: 1.7rem;
     color: white;
-    margin: .5rem;
+    margin: .5rem 1.5rem;
 }
 
 button:hover {
