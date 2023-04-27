@@ -22,6 +22,7 @@ footer {
     position: relative;
     background-color: #282828;
     height: 110px;
+    width: 100%;
     z-index: 3;
 }
 
@@ -52,6 +53,14 @@ h2 {
 
 h3 {
     font-size: 1.1rem;
+}
+
+h4 {
+    font-size: .9rem;
+}
+
+h5 {
+    font-size: .7rem;
 }
 
 /* MAIN */
@@ -92,7 +101,7 @@ ul.nav-menu-up li{
     /* background-color: aqua; */
 }
 
-li.nav-menu-up-line::before {
+li.nav-menu-up-line::after {
     position: absolute;
     left: calc(3px - 1.5rem);
     content: "";
@@ -100,7 +109,6 @@ li.nav-menu-up-line::before {
     height: 90%;
     border-left: 3px solid #99e22d;
     /* background-color: red; */
-    z-index: -1;
 }
 
 li.nav-menu-up-line a{
@@ -222,7 +230,7 @@ li.nav-app-line {
     position: relative;
 }
 
-li.nav-app-line::before {
+li.nav-app-line::after {
     position: absolute;
     left: 30%;
 
@@ -288,6 +296,8 @@ img.album-cover-round {
 /* FOOTER */
 
 div.footer-container {
+    flex-wrap: wrap;
+    height: 100%;
     padding: .8rem;
     align-items: center;
     justify-content: space-between;
@@ -307,7 +317,12 @@ div.song-playing-info {
     margin-right: 2.5rem;
 }
 
+div.song-playing-info h5{
+    color: #6f6f6f;
+}
+
 div.footer-left i {
+    font-size: 1.2rem;
     margin-right: 1rem;
     color: #7b7d82;
 }
@@ -316,7 +331,6 @@ div.footer-left i {
 div.footer-center {
     flex-direction: column;
     justify-content: center;
-    width: 500px;
 }
 
 div.player-controls{
