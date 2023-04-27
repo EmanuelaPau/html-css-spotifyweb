@@ -46,13 +46,22 @@ I did the project in this way:
     </li>
 </ul>
 
- </p>
+</p>
 
 <section id="ref-image">
+<h2>Desktop reference</h2>
 <img src="https://github.com/EmanuelaPau/html-css-spotifyweb/blob/main/references/spotify-lg.png"></img>
+
+<h2>Low-definition screen reference</h2>
 <img src="https://github.com/EmanuelaPau/html-css-spotifyweb/blob/main/references/spotify-md.png"></img>
+
+<h2>Tablet reference</h2>
 <img src="https://github.com/EmanuelaPau/html-css-spotifyweb/blob/main/references/spotify-s.png"></img>
+
+<h2>Mobile reference</h2>
 <img src="https://github.com/EmanuelaPau/html-css-spotifyweb/blob/main/references/spotify-xs.png"></img>
+
+<h2>Footer behavior reference</h2>
 <img src="https://github.com/EmanuelaPau/html-css-spotifyweb/blob/main/references/spotify-height-350.png"></img>
 
 </section>
