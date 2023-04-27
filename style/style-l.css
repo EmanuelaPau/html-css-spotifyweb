@@ -272,11 +272,40 @@ div.album-column {
 
 div.album-column img{
     width: 100%;
-    margin-bottom: 1rem;
+}
+
+div.album-cover-box {
+    position: relative;
+}
+
+div.album-black-box{
+    display: none;
+    position: absolute;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+    background-color: #0000007d;
+}
+
+div.album-cover-box:hover  div.album-black-box{
+    display: inline-flex;
+}
+
+.album-round {
+    border-radius: 50%;
+}
+
+div.album-black-box i{
+    font-size: 60px;
+    text-align: center;
 }
 
 div.album-column h3{
     margin-bottom: .4rem;
+    margin-top: 1rem;
 }
 
 div.album-column p{
