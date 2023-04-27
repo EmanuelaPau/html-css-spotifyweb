@@ -40,6 +40,10 @@ a {
     font-size: .8rem;
 }
 
+a:hover{
+    color: white;
+}
+
 /* Texts */
 
 h1 {
@@ -292,6 +296,7 @@ div.album-black-box{
 
 div.album-cover-box:hover  div.album-black-box{
     display: inline-flex;
+    cursor: pointer;
 }
 
 .album-round {
@@ -344,8 +349,9 @@ div.footer-left img {
     width: 50px;
 }
 
-div.song-playing-info h5{
-    color: #6f6f6f;
+div.song-playing-info a{
+    font-size: .65rem;
+    font-weight: 600;
 }
 
 div.footer-left i {
@@ -446,6 +452,12 @@ button {
     border-radius: 1.7rem;
     color: white;
     margin: .5rem;
+}
+
+button:hover {
+    font-size: 1.1rem;
+    transform-origin: center;
+    cursor: pointer;
 }
 
 .padding-left-m {
