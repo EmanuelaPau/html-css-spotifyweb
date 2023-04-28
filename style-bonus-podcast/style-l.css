@@ -343,6 +343,65 @@ div.follow-section i {
     font-size: 1.5rem;
 }
 
+/* Column episodies */
+div.col-episodes {
+    width: 60%;
+}
+
+/* Podcast info */
+
+div.podcast-info-container {
+    background-color: #232323c5;
+    border-radius: .3rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+div.podcast-info-container p {
+    font-size: .7rem;
+    opacity: .6;
+    margin-bottom: .6rem;
+    line-height: 1rem;
+}
+
+div.podcast-info-title {
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+div.blue-circle {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #2c76cf;
+    margin-right: .8rem;
+}
+
+div.episode-length  {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.green-circle {
+    background-color: #1bd760;
+    width: 30px;
+    height: 30  px;
+    border-radius: 50%;
+    color: #000000;
+    margin-right: 1rem;
+    padding: .3rem;
+}
+
+div.green-circle i {
+    margin: auto;
+}
+
+div.episode-length span {
+    font-size: .75rem;
+    opacity: .6;
+    margin-right: .3rem;
+}
+
 /* FOOTER */
 
 div.footer-container {
@@ -549,6 +608,10 @@ button:hover {
 
 .container-big {
     padding: 0 2rem ;
+}
+
+.container-small {
+    padding: 0 1rem;
 }
 
 .bg-color-black{
