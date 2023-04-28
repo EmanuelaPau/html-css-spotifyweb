@@ -6,12 +6,12 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Spotify.com</title>
             <!-- link al css -->
-            <link rel="stylesheet" href="style/style-l.css">
+            <link rel="stylesheet" href="style-bonus-podcast/style-l.css">
             
             <!-- Media queries -->
-            <link rel="stylesheet" href="style/style-m.css">
-            <link rel="stylesheet" href="style/style-s.css">
-            <link rel="stylesheet" href="style/style-xs.css">
+            <link rel="stylesheet" href="style-bonus-podcast/style-m.css">
+            <link rel="stylesheet" href="style-bonus-podcast/style-s.css">
+            <link rel="stylesheet" href="style-bonus-podcast/style-xs.css">
 
             <!-- FONT AWESOME 6.4.0 -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -92,16 +92,26 @@
 
                 
                 <section class="app-main-box flex">
-                   <header class="app-main-header">
-                        <div class="app-header-controls">
 
+                    <!-- Podcast header -->
+                   <div class="app-main-header">
+                        <div class="app-header-controls container-big flex">
+                            <div class="back-controls"></div>
+                            <div class="profile-controls"></div>
                         </div>
-                        <div class="app-header-podcast-info">
+                   </div>
 
-                        </div>
-                   </header>
-
+                   <!-- Main podcast page section whith episodes, synopsis and infos-->
                    <div class="podcast-main">
+                            <!-- lower header -->
+                        <div class="app-header-podcast-info container-big flex">
+                            <div class="header-album">
+
+                            </div>
+                            <div class="header-album-texts">
+
+                            </div>
+                        </div>
                         <div class="col-episodes"></div>
                         <div class="col-info"></div>
                    </div>
