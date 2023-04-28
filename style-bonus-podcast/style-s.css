@@ -4,6 +4,12 @@
         /* background-color: green; */
     }
 
+    /* main app Header */
+
+    .right-circle {
+        display: none;
+    }
+
     /* Footer */
 
     div.player-line-container {
