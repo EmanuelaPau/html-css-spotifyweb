@@ -64,6 +64,11 @@ h5 {
     font-size: .6rem;
 }
 
+h6 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
 /* MAIN */
 
 /* NAV */
@@ -289,8 +294,38 @@ div.app-header-podcast-info {
 div.header-album {
     width: 220px;
     height: 220px;
-    background-color: blue;
+    margin-right: 1rem;
+}
+
+div.header-album img{
+    object-fit: cover;
+    width: 100%;
     border-radius: 8px;
+
+}
+
+div.header-album-texts {
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 220px;
+}
+
+div.header-album-texts p {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .7rem;
+}
+
+div.header-album-texts h3 {
+    margin-top: 1.6rem;
+    margin-bottom: .8rem;
+    font-size: 1.3rem;
+}
+
+/* Main podcast section episodes and info */
+/* Following nav */
+button.button-square {
+    font-size: .8rem;
 }
 
 /* FOOTER */
