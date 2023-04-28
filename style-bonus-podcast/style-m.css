@@ -1,18 +1,7 @@
 /* Dimensioni schermo 768-992px */
 @media screen and (max-width: 992px) {
-    /* Album section */
-    div.album-column {
-        width: calc((100% / 4) - .5rem);
-    }
 
-    div.album-column.fifth-column {
-        display: none;
-     }
-
-    div.album-column.sixth-column {
-       display: none;
-    }
-
+    
     /* footer */
     div.player-line-container {
         width: 70%;

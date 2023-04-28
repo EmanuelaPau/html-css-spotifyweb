@@ -5,10 +5,6 @@
 
     /* MAIN */
 
-    div.upgrade {
-        width: calc(100% - 60px);
-    }
-
     /* NAV */
 
     nav.side-menu-bar {
@@ -94,10 +90,7 @@
         display: none;
     }
 
-    /* MAIN APP*/
-    section.app-main-box {
-        width: calc(100% - 60px)
-    }
+    /* MAIN APP*/ 
 
     /* FOOTER */
 

@@ -2,29 +2,6 @@
 @media screen and (max-width: 768px) {
     body{
         /* background-color: green; */
-    }   
-
-
-
-    /* Album section */
-    div.album-column {
-        width: calc((100% / 2) - .5rem);
-    }
-
-    div.album-column.third-column {
-        display: none;
-     }
-
-    div.album-column.fourth-column {
-       display: none;
-    }
-
-    div.album-column.fifth-column {
-        display: none;
-     }
-
-    div.album-column.sixth-column {
-       display: none;
     }
 
     /* Footer */
