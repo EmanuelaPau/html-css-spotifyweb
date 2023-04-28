@@ -457,7 +457,18 @@ img.album-img {
 div.album-info-container {
     width: calc(100% - 110px);
     margin: 0;
-  }
+}
+
+/* info column */
+
+div.col-info {
+    width: 39%;
+}
+
+div.col-info h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 /* FOOTER */
 
