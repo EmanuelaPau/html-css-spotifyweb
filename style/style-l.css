@@ -370,6 +370,11 @@ div.footer-left img {
     width: 50px;
 }
 
+div.song-playing-info{
+    flex-direction: column;
+    justify-content: center;
+}
+
 div.song-playing-info a{
     font-size: .65rem;
     font-weight: 600;
@@ -511,7 +516,6 @@ div.player-line-container-right:hover div.player-line-percentage{
 div.player-line-container-right:hover .display-hover{
     display: inline-block;
 }
-
 
 /* UTILITIES */
 
