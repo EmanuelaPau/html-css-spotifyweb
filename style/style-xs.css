@@ -1,10 +1,13 @@
 /* Dimensioni schermo 0–576px */
 @media screen and (max-width: 576px) {
     body{
-        /* background-color: pink; */
     }  
 
     /* MAIN */
+
+    div.upgrade {
+        width: calc(100% - 60px);
+    }
 
     /* NAV */
 

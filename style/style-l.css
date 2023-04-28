@@ -6,9 +6,6 @@
 }
 
 body{
-    /* width: 100vw;
-    height: 100vh;
-    background-color: aqua; */
     font-family: 'Montserrat', sans-serif;  
     color: white;
 }
@@ -72,7 +69,7 @@ h5 {
 /* NAV */
 nav.side-menu-bar {
     width: 270px;
-    height: 100%; 
+    height: calc(100vh - 110px); 
     background-color: #000000;
     color: #7b7d82;
     font-weight: 600;
@@ -141,6 +138,12 @@ div.add-playlist h3{
     text-align: center;
 }
 
+ul.playlist-list {
+    overflow-y: scroll;
+    height: 40vh;
+    min-height: 25vh;
+}
+
 div.crea-playlist {
     align-items: center;
 }
@@ -168,6 +171,7 @@ div.playlist h1.playlist-title {
 
 div.side-menu-bottom div img {
     width: 18px;
+    height: 60px;
     margin-right: .5rem;
     opacity: 80%;    
 }
@@ -470,7 +474,6 @@ div.player-line-circle{
 .display-hover {
     display: none;
 }
-
 
 div.player-line-container:hover .display-hover{
     display: inline-block;
